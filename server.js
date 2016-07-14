@@ -1,6 +1,6 @@
 "use strict";
 var express = require("express"),
-    routes = require("./routes/index.js"),
+    routes = require("./app/routes/index.js"),
     mongo = require("mongodb").MongoClient;
 var app = express();
 
